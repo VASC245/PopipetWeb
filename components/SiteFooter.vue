@@ -3,11 +3,7 @@
     <div class="foot">
       <div>
         <div class="brand" style="margin-bottom:1.2rem">
-          <svg viewBox="0 0 64 64" style="width:38px;height:38px" aria-hidden="true">
-            <rect x="2" y="2" width="60" height="60" rx="14" fill="#1B4A32"/>
-            <path d="M20 44C20 27 31 17 47 16c1.4 17-5.5 28-21 29-2.2 0-4.2-.4-6-1z" fill="#8FBF4D"/>
-            <path d="M22 44C28 33 36 25 44 19" stroke="#143726" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-          </svg>
+          <img class="brand-logo brand-logo-footer" src="/logopopipet.jpg" alt="Logo Popipet Ecoarena" width="59" height="44">
           <span class="brand-name"><b style="color:#fff">Popipet</b><span style="color:#C9A97E">Ecoarena</span></span>
         </div>
         <p>Arena sanitaria premium 100% ecológica de pellets de madera, fabricada en Ecuador por Fuego Verde con madera de trazabilidad certificada.</p>
