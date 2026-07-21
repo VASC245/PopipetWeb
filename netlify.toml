@@ -1,0 +1,9 @@
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+[[redirects]]
+  from = "https://popipet.ec/*"
+  to = "https://www.popipet.ec/:splat"
+  status = 301
+  force = true
