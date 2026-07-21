@@ -25,8 +25,8 @@
           </div>
         </div>
         <div class="hero-visual">
-          <div class="frame">
-            <BagVisual :size="310" />
+          <div class="frame frame-photo">
+            <img src="/primerafoto.jpg" alt="Sacos de Popipet Ecoarena sobre pellets de madera" width="1280" height="853" fetchpriority="high">
           </div>
           <div class="cert-chip">
             <svg class="icon"><use href="#i-award"/></svg>
@@ -109,8 +109,8 @@
           <p class="sub">Realice su pedido en línea y recíbalo en cualquier ciudad del Ecuador.</p>
         </div>
         <div class="shop">
-          <div class="shop-visual reveal">
-            <BagVisual :size="260" />
+          <div class="shop-visual shop-photo reveal">
+            <img src="/fotodondesecompra.jpg" alt="Saco de Popipet Ecoarena junto a un gato — la arena que tu mascota necesita" width="1240" height="1230" loading="lazy">
           </div>
           <div class="product-panel reveal">
             <span class="sku">Ref. POPIPET-10KG · Sanitario premium</span>
@@ -209,6 +209,30 @@
       </div>
     </section>
 
+    <!-- GALERÍA -->
+    <section id="galeria" style="background:var(--sand);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Galería</span>
+          <h2 class="title">Así es Popipet Ecoarena</h2>
+          <p class="sub">Pellets de madera 100% natural, tal como llegan a su hogar.</p>
+        </div>
+        <div class="carousel reveal">
+          <button class="car-btn prev" @click="scrollCarousel(-1)" aria-label="Foto anterior">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <div class="car-track" ref="carTrack">
+            <figure class="car-item" v-for="g in galeria" :key="g.src">
+              <img :src="g.src" :alt="g.alt" loading="lazy">
+            </figure>
+          </div>
+          <button class="car-btn next" @click="scrollCarousel(1)" aria-label="Siguiente foto">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
     <!-- FICHA TÉCNICA -->
     <section id="ficha">
       <div class="wrap">
@@ -281,6 +305,21 @@
 <script setup lang="ts">
 const { add } = useCart()
 const selQty = ref(1)
+
+const carTrack = ref<HTMLElement | null>(null)
+const galeria = [
+  { src: '/galeria/galeria-1.jpg', alt: 'Pellets de madera Popipet Ecoarena en detalle' },
+  { src: '/galeria/galeria-2.jpg', alt: 'Textura natural de los pellets de aserrín de madera' },
+  { src: '/galeria/galeria-3.jpg', alt: 'Pellets de madera 100% naturales sin aditivos' },
+  { src: '/galeria/galeria-4.jpg', alt: 'Pellets de Popipet Ecoarena listos para el arenero' },
+  { src: '/galeria/galeria-5.jpg', alt: 'Gato usando su arenero con Popipet Ecoarena' }
+]
+
+function scrollCarousel(dir: number) {
+  const track = carTrack.value
+  if (!track) return
+  track.scrollBy({ left: dir * track.clientWidth * 0.75, behavior: 'smooth' })
+}
 const config = useRuntimeConfig()
 const site = config.public.siteUrl
 
