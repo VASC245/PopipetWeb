@@ -21,8 +21,15 @@ export default defineNuxtConfig({
     }
   },
   runtimeConfig: {
+    payphone: {
+      token: process.env.PAYPHONE_TOKEN || ''
+    },
     public: {
-      siteUrl: 'https://www.popipet.ec'
+      siteUrl: 'https://www.popipet.ec',
+      payphone: {
+        token: process.env.PAYPHONE_TOKEN || '',
+        storeId: process.env.PAYPHONE_STORE_ID || ''
+      }
     }
   },
   content: {
@@ -31,7 +38,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/blog', '/sitemap.xml']
+      routes: ['/', '/blog', '/sitemap.xml', '/pagar', '/pago/respuesta']
     }
   }
 })

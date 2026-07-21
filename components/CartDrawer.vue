@@ -27,7 +27,16 @@
       </div>
       <div class="drawer-foot">
         <div class="total-row"><span>Total</span><span>${{ total.toFixed(2) }}</span></div>
-        <button class="btn btn-primary" style="width:100%" @click="checkout">
+        <NuxtLink
+          v-if="list.length"
+          to="/pagar"
+          class="btn btn-primary"
+          style="width:100%"
+          @click="drawerOpen = false"
+        >
+          Pagar con tarjeta
+        </NuxtLink>
+        <button class="btn btn-outline" style="width:100%" @click="checkout">
           Finalizar pedido por WhatsApp
         </button>
         <p class="drawer-note">El costo de envío se coordina según su ciudad al confirmar el pedido.</p>

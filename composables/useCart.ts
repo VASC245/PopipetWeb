@@ -13,6 +13,9 @@ export const PRODUCT = {
 
 export const WHATSAPP = '593983068976'
 
+// IVA Ecuador. Los precios de venta ya lo incluyen.
+export const IVA_RATE = 0.15
+
 let toastTimer: ReturnType<typeof setTimeout> | null = null
 
 export function useCart() {
@@ -58,6 +61,17 @@ export function useCart() {
     items.value = next
   }
 
+  function clear() {
+    items.value = {}
+  }
+
+  // Desglose en centavos para PayPhone: amount = amountWithTax + tax
+  const cents = computed(() => {
+    const totalCents = Math.round(total.value * 100)
+    const baseCents = Math.round(totalCents / (1 + IVA_RATE))
+    return { total: totalCents, base: baseCents, tax: totalCents - baseCents }
+  })
+
   function checkout() {
     const list = Object.values(items.value)
     if (!list.length) {
@@ -72,5 +86,5 @@ export function useCart() {
     window.open(`https://wa.me/${WHATSAPP}?text=${msg}`, '_blank')
   }
 
-  return { items, drawerOpen, toast, count, total, add, setQty, checkout, showToast }
+  return { items, drawerOpen, toast, count, total, cents, add, setQty, clear, checkout, showToast }
 }
