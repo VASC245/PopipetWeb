@@ -41,4 +41,4 @@ Un gato con sensibilidad respiratoria agradecerá el cambio, pero sigue siendo u
 
 ## En resumen
 
-Para hogares con gatos asmáticos, cachorros, gatos mayores o personas alérgicas, la recomendación es clara: una arena vegetal sin polvo y sin aditivos. [Popipet Ecoarena](/#producto) está fabricada en Ecuador con aserrín de madera certificada, no genera polvo y neutraliza olores de forma completamente natural — la elección más saludable para todos los que respiran en su casa.
+Para hogares con gatos asmáticos, cachorros, gatos mayores o personas alérgicas, la recomendación es clara: una arena vegetal sin polvo y sin aditivos. [Popipet Ecoarena](/#producto) está fabricada en Ecuador con aserrín de madera 100% natural, no genera polvo y neutraliza olores de forma completamente natural — la elección más saludable para todos los que respiran en su casa.

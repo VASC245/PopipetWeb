@@ -8,8 +8,7 @@
           <h1>Arena ecológica de pellets de madera para el bienestar de sus mascotas</h1>
           <p class="lead">
             Popipet Ecoarena elimina olores sin químicos ni aditivos, no genera polvo y rinde
-            3 veces más que la arena tradicional. Fabricada con madera de trazabilidad certificada,
-            para gatos, roedores, conejos y caballos.
+            3 veces más que la arena tradicional. Ideal para gatos, roedores, conejos y caballos.
           </p>
           <div class="cta-row">
             <NuxtLink class="btn btn-primary" to="#producto">Comprar ahora</NuxtLink>
@@ -28,13 +27,6 @@
           <div class="frame frame-photo">
             <img src="/primerafoto.jpg" alt="Sacos de Popipet Ecoarena sobre pellets de madera" width="1280" height="853" fetchpriority="high">
           </div>
-          <div class="cert-chip">
-            <svg class="icon"><use href="#i-award"/></svg>
-            <div>
-              <b>Madera con certificado de sustentabilidad</b>
-              <small>Trazabilidad gestionada ante el Ministerio del Ambiente</small>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -44,7 +36,6 @@
       <div class="trust-inner">
         <span class="trust-item"><svg class="icon"><use href="#i-flag"/></svg> Producto ecuatoriano</span>
         <span class="trust-item"><svg class="icon"><use href="#i-leaf"/></svg> 100% natural, sin aditivos</span>
-        <span class="trust-item"><svg class="icon"><use href="#i-award"/></svg> Madera certificada</span>
         <span class="trust-item"><svg class="icon"><use href="#i-recycle"/></svg> Compostable</span>
         <span class="trust-item"><svg class="icon"><use href="#i-truck"/></svg> Envíos a todo el país</span>
       </div>
@@ -57,9 +48,8 @@
           <span class="eyebrow">Sobre el producto</span>
           <h2 class="title">Tecnología natural de la madera, al servicio de la higiene de sus mascotas</h2>
           <p class="sub" style="margin-bottom:1rem">
-            Popipet Ecoarena es fabricada por <strong>Fuego Verde</strong>, empresa ecuatoriana líder en
-            producción de pellets, a partir de aserrín proveniente de explotaciones madereras con
-            certificados de trazabilidad gestionados por el Ministerio del Ambiente.
+            Popipet Ecoarena es un producto ecuatoriano elaborado a partir de aserrín de madera
+            100% natural, seleccionado cuidadosamente para garantizar la máxima calidad e higiene.
           </p>
           <p class="sub">
             Los pellets se hidratan con la orina de la mascota y neutralizan el olor únicamente con el
@@ -124,7 +114,7 @@
             <ul class="check-list">
               <li><svg class="icon"><use href="#i-check"/></svg> Pellets de aserrín de madera 100% natural, sin aditivos</li>
               <li><svg class="icon"><use href="#i-check"/></svg> Apto para gatos, conejos, roedores, reptiles, aves y caballos</li>
-              <li><svg class="icon"><use href="#i-check"/></svg> Certificado de madera sustentable — producto ecuatoriano</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Producto 100% ecuatoriano</li>
               <li><svg class="icon"><use href="#i-check"/></svg> Humedad ≤ 4% · Durabilidad mecánica 97%</li>
             </ul>
             <div class="qty">
@@ -249,11 +239,6 @@
           <div class="spec"><span>Durabilidad mecánica</span><b>97%</b></div>
           <div class="spec"><span>Densidad aparente</span><b>≥ 650 kg/m³</b></div>
         </div>
-        <div class="cert-line reveal">
-          <svg class="icon"><use href="#i-award"/></svg>
-          <span>Fabricado por Fuego Verde con aserrines provenientes de explotaciones madereras con certificados
-          de trazabilidad gestionados por el Ministerio del Ambiente, que garantizan el origen sustentable de los residuos madereros.</span>
-        </div>
       </div>
     </section>
 
@@ -339,7 +324,7 @@ const faqs = [
 
 useSeoMeta({
   title: 'Popipet Ecoarena | Arena Ecológica de Pellets de Madera para Gatos, Roedores y Caballos | Ecuador',
-  description: 'Popipet Ecoarena: arena ecológica para gatos hecha de pellets de madera 100% natural. Biodegradable, sin polvo, elimina olores y rinde 3 veces más. Producto ecuatoriano con madera certificada. Pedidos a todo Ecuador.',
+  description: 'Popipet Ecoarena: arena ecológica para gatos hecha de pellets de madera 100% natural. Biodegradable, sin polvo, elimina olores y rinde 3 veces más. Producto ecuatoriano. Pedidos a todo Ecuador.',
   keywords: 'arena para gatos ecuador, arena ecológica para gatos, arena de pellets para gatos, pellets de madera para gatos, arena biodegradable, arena para gatos sin polvo, cama sanitaria para mascotas, sustrato para roedores, cama para caballos, arena natural para gatos, arena para gatos Quito, arena para gatos Guayaquil',
   ogType: 'website',
   ogTitle: 'Popipet Ecoarena | Arena Ecológica de Pellets para Gatos - Ecuador',
@@ -360,9 +345,8 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'Product',
         name: 'Popipet Ecoarena - Arena Ecológica de Pellets de Madera 10 kg',
-        description: 'Arena sanitaria premium 100% ecológica hecha de pellets de aserrín de madera certificada. Para gatos, conejos, roedores, tortugas, reptiles, caballos y aves. Elimina olores sin aditivos, biodegradable y sin polvo.',
+        description: 'Arena sanitaria premium 100% ecológica hecha de pellets de aserrín de madera 100% natural. Para gatos, conejos, roedores, tortugas, reptiles, caballos y aves. Elimina olores sin aditivos, biodegradable y sin polvo.',
         brand: { '@type': 'Brand', name: 'Popipet Ecoarena' },
-        manufacturer: { '@type': 'Organization', name: 'Fuego Verde', url: 'https://www.fuegoverde.com.ec' },
         countryOfOrigin: 'EC',
         weight: { '@type': 'QuantitativeValue', value: '10', unitCode: 'KGM' },
         offers: { '@type': 'Offer', price: '14.99', priceCurrency: 'USD', availability: 'https://schema.org/InStock', areaServed: 'Ecuador' }

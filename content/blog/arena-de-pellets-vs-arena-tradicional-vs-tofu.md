@@ -48,6 +48,6 @@ La bentonita se extrae de minas a cielo abierto, no se degrada y termina en rell
 
 ## Veredicto
 
-Para la mayoría de hogares ecuatorianos, la arena de pellets de madera ofrece el mejor balance: la más económica por semana de uso, la más saludable (cero polvo, cero químicos) y la única con producción nacional certificada. La bentonita conserva la ventaja de la costumbre, y el tofu es una alternativa vegetal digna aunque costosa.
+Para la mayoría de hogares ecuatorianos, la arena de pellets de madera ofrece el mejor balance: la más económica por semana de uso, la más saludable (cero polvo, cero químicos) y la única con producción nacional. La bentonita conserva la ventaja de la costumbre, y el tofu es una alternativa vegetal digna aunque costosa.
 
-Si decide probar los pellets, hágalo con método: la [transición gradual en dos semanas](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets) garantiza que su gato acepte el cambio. Y si busca una opción hecha en Ecuador con madera de trazabilidad certificada, [conozca Popipet Ecoarena](/#producto).
+Si decide probar los pellets, hágalo con método: la [transición gradual en dos semanas](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets) garantiza que su gato acepte el cambio. Y si busca una opción hecha en Ecuador con madera 100% natural, [conozca Popipet Ecoarena](/#producto).

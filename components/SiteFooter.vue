@@ -6,7 +6,7 @@
           <img class="brand-logo brand-logo-footer" src="/logopopipet.jpg" alt="Logo Popipet Ecoarena" width="59" height="44">
           <span class="brand-name"><b style="color:#fff">Popipet</b><span style="color:#C9A97E">Ecoarena</span></span>
         </div>
-        <p>Arena sanitaria premium 100% ecológica de pellets de madera, fabricada en Ecuador por Fuego Verde con madera de trazabilidad certificada.</p>
+        <p>Arena sanitaria premium 100% ecológica de pellets de madera, fabricada en Ecuador.</p>
       </div>
       <div>
         <h4>Navegación</h4>
