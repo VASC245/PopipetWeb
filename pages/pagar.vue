@@ -24,18 +24,17 @@
           </div>
         </div>
 
-        <div v-if="payphoneReady" class="paybox card">
+        <!-- El contenedor #pp-button debe existir en el DOM antes de llamar a render() -->
+        <div v-if="configured && !loadError" class="paybox card">
           <p class="paybox-label">Pague de forma segura con tarjeta de crédito o débito:</p>
+          <p v-if="!payphoneReady">Cargando módulo de pago seguro…</p>
           <div id="pp-button"></div>
         </div>
         <div v-else-if="loadError" class="paybox card">
           <p>No se pudo cargar el módulo de pagos. Intente de nuevo o realice su pedido por WhatsApp.</p>
         </div>
-        <div v-else-if="!configured" class="paybox card">
-          <p>El pago con tarjeta estará disponible muy pronto. Por ahora puede completar su pedido por WhatsApp.</p>
-        </div>
         <div v-else class="paybox card">
-          <p>Cargando módulo de pago seguro…</p>
+          <p>El pago con tarjeta estará disponible muy pronto. Por ahora puede completar su pedido por WhatsApp.</p>
         </div>
 
         <p class="alt-pay">
@@ -102,6 +101,7 @@ onMounted(async () => {
   if (!configured || !list.value.length) return
   try {
     await loadBoxScript()
+    await nextTick()
     const clientTransactionId = `POPIPET-${Date.now()}-${Math.random().toString(36).slice(2, 8).toUpperCase()}`
     const box = new (window as any).PPaymentButtonBox({
       token: config.token,
@@ -121,7 +121,8 @@ onMounted(async () => {
     })
     box.render('pp-button')
     payphoneReady.value = true
-  } catch {
+  } catch (err) {
+    console.error('[payphone] No se pudo inicializar la Cajita:', err)
     loadError.value = true
   }
 })
