@@ -15,17 +15,20 @@ export default defineEventHandler(async (event) => {
 
   let tx: any
   try {
-    tx = await $fetch('https://pay.payphonetodoesposible.com/api/button/V2/Confirm', {
+    // Endpoint oficial de confirmación de la Cajita de Pagos (docs Payphone).
+    // Si no se confirma dentro de 5 minutos, Payphone reversa la transacción.
+    tx = await $fetch('https://paymentbox.payphonetodoesposible.com/api/confirm', {
       method: 'POST',
-      headers: { Authorization: `Bearer ${token}` },
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       body: { id, clientTxId }
     })
   } catch {
     throw createError({ statusCode: 502, statusMessage: 'No se pudo verificar el pago con PayPhone' })
   }
 
+  // statusCode: 3 = Aprobada, 2 = Cancelada
   return {
-    approved: tx?.transactionStatus === 'Approved',
+    approved: tx?.transactionStatus === 'Approved' || tx?.statusCode === 3,
     status: tx?.transactionStatus ?? 'Unknown',
     transactionId: tx?.transactionId ?? id,
     authorizationCode: tx?.authorizationCode ?? null,

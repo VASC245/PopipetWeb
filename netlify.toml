@@ -2,6 +2,13 @@
   command = "npm run build"
   publish = "dist"
 
+# Payphone valida el origen de la redirección al formulario de pago;
+# recomienda origin u origin-when-cross-origin para evitar "Acceso denegado".
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "origin-when-cross-origin"
+
 [[redirects]]
   from = "https://popipet.ec/*"
   to = "https://www.popipet.ec/:splat"

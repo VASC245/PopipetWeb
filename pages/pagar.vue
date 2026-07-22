@@ -66,8 +66,8 @@ const configured = Boolean(config.token && config.storeId)
 const payphoneReady = ref(false)
 const loadError = ref(false)
 
-const BOX_JS = 'https://cdn.payphonetodoesposible.com/box/v1.1/payphone-payment-box.js'
-const BOX_CSS = 'https://cdn.payphonetodoesposible.com/box/v1.1/payphone-payment-box.css'
+const BOX_JS = 'https://cdn.payphonetodoesposible.com/box/v2.0/payphone-payment-box.js'
+const BOX_CSS = 'https://cdn.payphonetodoesposible.com/box/v2.0/payphone-payment-box.css'
 
 function loadBoxScript(): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -115,7 +115,9 @@ onMounted(async () => {
       tip: 0,
       currency: 'USD',
       reference: `Pedido Popipet Ecoarena (${list.value.map(i => `${i.qty}x ${i.id}`).join(', ')})`,
-      lang: 'es'
+      lang: 'es',
+      defaultMethod: 'card',
+      timeZone: -5
     })
     box.render('pp-button')
     payphoneReady.value = true
