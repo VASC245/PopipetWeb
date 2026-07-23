@@ -10,7 +10,7 @@
     Referrer-Policy = "origin-when-cross-origin"
 
 [[redirects]]
-  from = "https://popipet.ec/*"
-  to = "https://www.popipet.ec/:splat"
+  from = "https://www.popipet.com/*"
+  to = "https://popipet.com/:splat"
   status = 301
   force = true

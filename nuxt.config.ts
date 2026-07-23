@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       token: process.env.PAYPHONE_TOKEN || ''
     },
     public: {
-      siteUrl: 'https://www.popipet.ec',
+      siteUrl: 'https://popipet.com',
       payphone: {
         token: process.env.PAYPHONE_TOKEN || '',
         storeId: process.env.PAYPHONE_STORE_ID || ''

@@ -1,7 +1,7 @@
 import { serverQueryContent } from '#content/server'
 
 export default defineEventHandler(async (event) => {
-  const site = 'https://www.popipet.ec'
+  const site = 'https://popipet.com'
   const docs = await serverQueryContent(event).where({ _partial: false }).find()
   const posts = docs.filter((d: any) => d._path?.startsWith('/blog'))
 
