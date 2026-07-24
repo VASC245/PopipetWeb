@@ -26,6 +26,8 @@
         </div>
       </div>
       <div class="drawer-foot">
+        <div v-if="list.length" class="total-row sub"><span>Subtotal</span><span>${{ subtotal.toFixed(2) }}</span></div>
+        <div v-if="list.length" class="total-row sub"><span>IVA (15%)</span><span>${{ (cents.tax / 100).toFixed(2) }}</span></div>
         <div class="total-row"><span>Total</span><span>${{ total.toFixed(2) }}</span></div>
         <NuxtLink
           v-if="list.length"
@@ -46,6 +48,6 @@
 </template>
 
 <script setup lang="ts">
-const { items, drawerOpen, total, setQty, checkout } = useCart()
+const { items, drawerOpen, subtotal, total, cents, setQty, checkout } = useCart()
 const list = computed(() => Object.values(items.value))
 </script>

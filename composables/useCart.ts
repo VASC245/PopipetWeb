@@ -13,7 +13,7 @@ export const PRODUCT = {
 
 export const WHATSAPP = '593983068976'
 
-// IVA Ecuador. Los precios de venta ya lo incluyen.
+// IVA Ecuador. Los precios de venta NO lo incluyen: se suma al subtotal.
 export const IVA_RATE = 0.15
 
 let toastTimer: ReturnType<typeof setTimeout> | null = null
@@ -26,7 +26,8 @@ export function useCart() {
   const count = computed(() =>
     Object.values(items.value).reduce((a, i) => a + i.qty, 0)
   )
-  const total = computed(() =>
+  // Suma de precios de lista (sin IVA)
+  const subtotal = computed(() =>
     Object.values(items.value).reduce((a, i) => a + i.qty * i.price, 0)
   )
 
@@ -65,12 +66,16 @@ export function useCart() {
     items.value = {}
   }
 
-  // Desglose en centavos para PayPhone: amount = amountWithTax + tax
+  // Desglose en centavos para PayPhone: amount = amountWithTax + tax.
+  // El IVA se calcula sobre el subtotal y se suma (precios sin IVA).
   const cents = computed(() => {
-    const totalCents = Math.round(total.value * 100)
-    const baseCents = Math.round(totalCents / (1 + IVA_RATE))
-    return { total: totalCents, base: baseCents, tax: totalCents - baseCents }
+    const baseCents = Math.round(subtotal.value * 100)
+    const taxCents = Math.round(baseCents * IVA_RATE)
+    return { total: baseCents + taxCents, base: baseCents, tax: taxCents }
   })
+
+  // Total a pagar (subtotal + IVA)
+  const total = computed(() => cents.value.total / 100)
 
   function checkout() {
     const list = Object.values(items.value)
@@ -82,9 +87,9 @@ export function useCart() {
     list.forEach((i) => {
       msg += `- ${i.qty} x ${i.name} — $${(i.qty * i.price).toFixed(2)}%0A`
     })
-    msg += `%0ATotal: $${total.value.toFixed(2)}%0A%0ACiudad de entrega: `
+    msg += `%0ASubtotal: $${subtotal.value.toFixed(2)}%0AIVA (${Math.round(IVA_RATE * 100)}%): $${(cents.value.tax / 100).toFixed(2)}%0ATotal: $${total.value.toFixed(2)}%0A%0ACiudad de entrega: `
     window.open(`https://wa.me/${WHATSAPP}?text=${msg}`, '_blank')
   }
 
-  return { items, drawerOpen, toast, count, total, cents, add, setQty, clear, checkout, showToast }
+  return { items, drawerOpen, toast, count, subtotal, total, cents, add, setQty, clear, checkout, showToast }
 }

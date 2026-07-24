@@ -107,7 +107,7 @@
             <h3>Popipet Ecoarena — Saco de 10 kg</h3>
             <div class="price-row">
               <span class="price">${{ PRODUCT.price.toFixed(2) }}</span>
-              <span class="price-note">USD · IVA incluido</span>
+              <span class="price-note">USD · + IVA</span>
             </div>
             <p style="font-size:.9rem;color:var(--gray-600)">Rendimiento equivalente a 30 kg de arena tradicional.</p>
             <div class="divider"></div>
