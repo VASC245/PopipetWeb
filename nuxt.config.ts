@@ -29,6 +29,7 @@ export default defineNuxtConfig({
       key: process.env.SUPABASE_ANON_KEY || ''
     },
     pedidosAdminKey: process.env.PEDIDOS_ADMIN_KEY || '',
+    resendKey: process.env.RESEND_API_KEY || '',
     public: {
       siteUrl: 'https://popipet.com',
       payphone: {

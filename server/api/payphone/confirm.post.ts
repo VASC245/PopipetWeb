@@ -46,6 +46,25 @@ export default defineEventHandler(async (event) => {
     } catch (err) {
       console.error('[pedidos] No se pudo registrar el pedido', clientTxId, err)
     }
+
+    if (tx?.email) {
+      try {
+        const siteUrl = useRuntimeConfig(event).public.siteUrl
+        await enviarCorreo(event, {
+          to: tx.email,
+          subject: `✅ Pedido confirmado — Popipet Ecoarena (${clientTxId})`,
+          html: plantillaPedido({
+            titulo: '¡Gracias por su compra!',
+            mensaje: 'Su pago fue confirmado y ya estamos preparando su pedido. Con el botón de abajo puede seguir su avance en todo momento.',
+            codigo: clientTxId,
+            monto: typeof tx?.amount === 'number' ? tx.amount / 100 : null,
+            urlRastreo: `${siteUrl}/pedido/${encodeURIComponent(clientTxId)}`
+          })
+        })
+      } catch (err) {
+        console.error('[email] No se pudo enviar el correo de confirmación', clientTxId, err)
+      }
+    }
   }
 
   return {
