@@ -24,6 +24,11 @@ export default defineNuxtConfig({
     payphone: {
       token: process.env.PAYPHONE_TOKEN || ''
     },
+    supabase: {
+      url: process.env.SUPABASE_URL || '',
+      key: process.env.SUPABASE_ANON_KEY || ''
+    },
+    pedidosAdminKey: process.env.PEDIDOS_ADMIN_KEY || '',
     public: {
       siteUrl: 'https://popipet.com',
       payphone: {

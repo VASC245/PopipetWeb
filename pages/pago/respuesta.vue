@@ -9,7 +9,7 @@
       <template v-else-if="state === 'approved'">
         <h1>✅ ¡Pago confirmado!</h1>
         <div class="card receipt">
-          <p><b>Gracias por su compra.</b> Su pedido de Popipet Ecoarena fue registrado.</p>
+          <p><b>Gracias por su compra.</b> Su pedido ya está registrado y <b>lo estamos preparando</b>.</p>
           <div class="sum-row" v-if="result?.amount != null">
             <span>Monto pagado</span><span>${{ result.amount.toFixed(2) }}</span>
           </div>
@@ -23,11 +23,18 @@
             <span>Tarjeta</span><span>{{ result.cardBrand }} •••• {{ result.lastDigits }}</span>
           </div>
         </div>
+        <NuxtLink
+          v-if="result?.orderCode"
+          class="btn btn-primary"
+          :to="`/pedido/${encodeURIComponent(result.orderCode)}`"
+        >
+          📦 Seguir mi pedido
+        </NuxtLink>
         <p>
           Para coordinar la entrega, escríbanos por WhatsApp indicando su número de
           transacción y ciudad:
         </p>
-        <a class="btn btn-primary" :href="waLink" target="_blank" rel="noopener">
+        <a class="btn btn-outline" :href="waLink" target="_blank" rel="noopener">
           Coordinar entrega por WhatsApp
         </a>
       </template>
@@ -65,6 +72,7 @@ type ConfirmResult = {
   cardBrand: string | null
   lastDigits: string | null
   message: string | null
+  orderCode: string | null
 }
 
 const route = useRoute()
