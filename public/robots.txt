@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /pedido/
+Disallow: /pago/
 
-Sitemap: https://www.popipet.ec/sitemap.xml
+Sitemap: https://popipet.com/sitemap.xml
