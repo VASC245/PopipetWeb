@@ -39,9 +39,13 @@
               </a>
             </span>
             <span v-if="p.cliente_email">{{ p.cliente_email }}</span>
-            <span v-if="p.ciudad">📍 {{ p.ciudad }}</span>
             <span class="ap-fecha">{{ fecha(p.creado_en) }}</span>
           </div>
+          <p v-if="p.direccion" class="ap-envio">
+            📍 {{ p.tipo_lugar === 'oficina' ? 'Oficina' : 'Domicilio' }} · {{ p.ciudad }} —
+            {{ p.direccion }}<template v-if="p.referencia_entrega"> (Ref.: {{ p.referencia_entrega }})</template>
+          </p>
+          <p v-else class="ap-envio ap-envio-falta">⚠️ El cliente aún no registra su dirección de entrega</p>
           <div class="ap-acciones">
             <button
               v-for="e in siguientes(p.estado)"
@@ -218,6 +222,16 @@ onMounted(() => {
 }
 .ap-fecha {
   opacity: 0.6;
+}
+.ap-envio {
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  background: rgba(20, 83, 45, 0.06);
+  border-radius: 8px;
+}
+.ap-envio-falta {
+  background: #fef3c7;
 }
 .ap-acciones {
   display: flex;

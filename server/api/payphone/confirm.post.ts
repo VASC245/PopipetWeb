@@ -55,7 +55,7 @@ export default defineEventHandler(async (event) => {
           subject: `✅ Pedido confirmado — Popipet Ecoarena (${clientTxId})`,
           html: plantillaPedido({
             titulo: '¡Gracias por su compra!',
-            mensaje: 'Su pago fue confirmado y ya estamos preparando su pedido. Con el botón de abajo puede seguir su avance en todo momento.',
+            mensaje: 'Su pago fue confirmado y ya estamos preparando su pedido. Con el botón de abajo puede <b>registrar su dirección de entrega</b> (domicilio u oficina) y seguir el avance en todo momento.',
             codigo: clientTxId,
             monto: typeof tx?.amount === 'number' ? tx.amount / 100 : null,
             urlRastreo: `${siteUrl}/pedido/${encodeURIComponent(clientTxId)}`

@@ -8,7 +8,7 @@ export interface CartItem {
 export const PRODUCT = {
   id: 'popipet-10kg',
   name: 'Popipet Ecoarena — Saco 10 kg',
-  price: 14.99
+  price: 13.00
 }
 
 export const WHATSAPP = '593983068976'

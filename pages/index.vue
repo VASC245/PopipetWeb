@@ -349,7 +349,7 @@ useHead({
         brand: { '@type': 'Brand', name: 'Popipet Ecoarena' },
         countryOfOrigin: 'EC',
         weight: { '@type': 'QuantitativeValue', value: '10', unitCode: 'KGM' },
-        offers: { '@type': 'Offer', price: '14.99', priceCurrency: 'USD', availability: 'https://schema.org/InStock', areaServed: 'Ecuador' }
+        offers: { '@type': 'Offer', price: '13.00', priceCurrency: 'USD', availability: 'https://schema.org/InStock', areaServed: 'Ecuador' }
       })
     },
     {
