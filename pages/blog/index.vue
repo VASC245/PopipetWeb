@@ -40,11 +40,11 @@ useSeoMeta({
   description: 'Guías y consejos sobre arena para gatos, pellets de madera, higiene de mascotas y cuidado ecológico. El blog de Popipet Ecoarena, la arena ecológica hecha en Ecuador.',
   ogTitle: 'Blog Popipet Ecoarena | Gatos y arena ecológica',
   ogDescription: 'Consejos sobre arena para gatos, pellets de madera e higiene de mascotas en Ecuador.',
-  ogUrl: site + '/blog',
+  ogUrl: site + '/blog/',
   robots: 'index, follow'
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: site + '/blog' }]
+  link: [{ rel: 'canonical', href: site + '/blog/' }]
 })
 </script>

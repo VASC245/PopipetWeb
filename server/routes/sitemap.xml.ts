@@ -7,9 +7,10 @@ export default defineEventHandler(async (event) => {
 
   const urls = [
     { loc: `${site}/`, priority: '1.0', changefreq: 'weekly' },
-    { loc: `${site}/blog`, priority: '0.8', changefreq: 'weekly' },
+    { loc: `${site}/blog/`, priority: '0.8', changefreq: 'weekly' },
     ...posts.map((p: any) => ({
-      loc: `${site}${p._path}`,
+      // Netlify sirve los artículos con barra final (/blog/x/); la URL sin barra responde 301
+      loc: `${site}${p._path}/`,
       priority: '0.7',
       changefreq: 'monthly',
       lastmod: p.date

@@ -34,8 +34,11 @@ const route = useRoute()
 const config = useRuntimeConfig()
 const site = config.public.siteUrl
 
+// Netlify sirve estas páginas con barra final; canonical/sitemap deben usar la misma forma
+const canonicalUrl = site + route.path.replace(/\/+$/, '') + '/'
+
 const { data: doc } = await useAsyncData(`doc-${route.path}`, () =>
-  queryContent(route.path).findOne()
+  queryContent(route.path.replace(/\/+$/, '')).findOne()
 )
 
 if (!doc.value) {
@@ -44,7 +47,7 @@ if (!doc.value) {
 
 const { data: related } = await useAsyncData(`related-${route.path}`, () =>
   queryContent('/blog')
-    .where({ _path: { $ne: route.path } })
+    .where({ _path: { $ne: route.path.replace(/\/+$/, '') } })
     .sort({ date: -1 })
     .limit(3)
     .only(['title', '_path'])
@@ -62,12 +65,12 @@ useSeoMeta({
   ogType: 'article',
   ogTitle: doc.value.title,
   ogDescription: doc.value.description,
-  ogUrl: site + route.path,
+  ogUrl: canonicalUrl,
   robots: 'index, follow'
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: site + route.path }],
+  link: [{ rel: 'canonical', href: canonicalUrl }],
   script: [
     {
       type: 'application/ld+json',
@@ -78,7 +81,7 @@ useHead({
         description: doc.value.description,
         datePublished: doc.value.date,
         inLanguage: 'es-EC',
-        mainEntityOfPage: site + route.path,
+        mainEntityOfPage: canonicalUrl,
         author: { '@type': 'Organization', name: 'Popipet Ecoarena' },
         publisher: {
           '@type': 'Organization',
