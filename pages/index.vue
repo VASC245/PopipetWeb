@@ -356,6 +356,19 @@ useHead({
       type: 'application/ld+json',
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Popipet Ecoarena',
+        url: site + '/',
+        logo: site + '/logopopipet.jpg',
+        description: 'Arena ecológica de pellets de madera 100% natural para gatos, roedores, conejos y caballos. Producto ecuatoriano con envíos a todo el país.',
+        areaServed: 'Ecuador',
+        sameAs: ['https://www.instagram.com/ecoarena_popipet/']
+      })
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: faqs.map((f) => ({
           '@type': 'Question',
