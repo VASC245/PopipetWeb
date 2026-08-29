@@ -1,4 +1,5 @@
 import { serverQueryContent } from '#content/server'
+import { LANDINGS } from '../../data/landings'
 
 export default defineEventHandler(async (event) => {
   const site = 'https://popipet.com'
@@ -7,6 +8,13 @@ export default defineEventHandler(async (event) => {
 
   const urls = [
     { loc: `${site}/`, priority: '1.0', changefreq: 'weekly' },
+    // Landings transaccionales (Netlify las sirve con barra final, igual que el blog)
+    ...LANDINGS.map((l) => ({
+      loc: `${site}/${l.slug}/`,
+      priority: '0.9',
+      changefreq: 'monthly',
+      lastmod: l.date
+    })),
     { loc: `${site}/blog/`, priority: '0.8', changefreq: 'weekly' },
     ...posts.map((p: any) => ({
       // Netlify sirve los artículos con barra final (/blog/x/); la URL sin barra responde 301

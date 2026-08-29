@@ -40,7 +40,7 @@ A diferencia de una arena barata, con los pellets el menor costo no implica sacr
 
 ## Dónde comprar arena biodegradable en Ecuador
 
-Puede pedir Popipet Ecoarena directamente en [popipet.com](/#producto): arme su pedido en el carrito y coordine el pago y la entrega de inmediato. **Enviamos a todo Ecuador** (el envío tiene un costo adicional según la ciudad). También puede pagar en línea de forma segura desde la misma página.
+Puede pedir Popipet Ecoarena directamente en [popipet.com](/comprar-arena-de-pellets-para-gatos): arme su pedido en el carrito y coordine el pago y la entrega de inmediato. **Enviamos a todo Ecuador** (el envío tiene un costo adicional según la ciudad). También puede pagar en línea de forma segura desde la misma página. Si está en las ciudades principales, tenemos entrega a domicilio en [Quito](/arena-para-gatos-quito), [Guayaquil](/arena-para-gatos-guayaquil) y [Cuenca](/arena-para-gatos-cuenca).
 
 > Consejo: si es su primera compra, aproveche para hacer la transición correctamente desde el primer saco. El paso a paso está en nuestra [guía de transición de arena tradicional a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets).
 

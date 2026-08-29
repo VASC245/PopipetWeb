@@ -50,3 +50,5 @@ Es el punto donde más se equivoca la comparación rápida. El saco de pellets p
 Para la mayoría de hogares en Ecuador —especialmente con gatos sensibles, departamentos pequeños o familias que valoran lo ecológico— la mejor opción es la **arena de pellets de madera**. [Popipet Ecoarena](/#producto) es un producto ecuatoriano de aserrín 100% natural, disponible en saco de 10 kg con envío a todo el país.
 
 Si su gato lleva años con arena tradicional, el cambio es sencillo si se hace de forma progresiva: le explicamos el paso a paso en nuestra guía de [transición de arena tradicional a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets).
+
+¿Listo para probarla? Puede [comprar arena de pellets con envío a todo Ecuador](/comprar-arena-de-pellets-para-gatos), o ver las opciones de entrega a domicilio en [Quito](/arena-para-gatos-quito), [Guayaquil](/arena-para-gatos-guayaquil) y [Cuenca](/arena-para-gatos-cuenca).

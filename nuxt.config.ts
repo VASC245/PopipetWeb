@@ -44,7 +44,17 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/blog', '/sitemap.xml', '/pagar', '/pago/respuesta']
+      routes: [
+        '/',
+        '/blog',
+        '/sitemap.xml',
+        '/pagar',
+        '/pago/respuesta',
+        '/arena-para-gatos-quito',
+        '/arena-para-gatos-guayaquil',
+        '/arena-para-gatos-cuenca',
+        '/comprar-arena-de-pellets-para-gatos'
+      ]
     }
   }
 })

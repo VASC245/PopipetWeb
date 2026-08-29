@@ -17,6 +17,13 @@
         <NuxtLink to="/blog">Blog</NuxtLink>
       </div>
       <div>
+        <h4>Dónde comprar</h4>
+        <NuxtLink to="/arena-para-gatos-quito">Arena para gatos en Quito</NuxtLink>
+        <NuxtLink to="/arena-para-gatos-guayaquil">Arena para gatos en Guayaquil</NuxtLink>
+        <NuxtLink to="/arena-para-gatos-cuenca">Arena para gatos en Cuenca</NuxtLink>
+        <NuxtLink to="/comprar-arena-de-pellets-para-gatos">Comprar arena de pellets</NuxtLink>
+      </div>
+      <div>
         <h4>Empresa</h4>
         <a href="https://www.fuegoverde.com.ec" target="_blank" rel="noopener">Fuego Verde</a>
         <NuxtLink to="/#que-es">Sobre el producto</NuxtLink>
