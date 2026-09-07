@@ -194,7 +194,7 @@
         <p class="reveal" style="margin-top:2rem;font-size:.9rem;color:var(--gray-600);max-width:46rem">
           <strong>Transición desde otra arena:</strong> para una adaptación óptima, realice un cambio progresivo dejando
           en la parte superior una capa del antiguo lecho higiénico. Conserve el producto en un lugar seco.
-          <NuxtLink to="/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets" style="color:var(--green-700);font-weight:700"> Lea nuestra guía completa de transición.</NuxtLink>
+          <NuxtLink to="/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/" style="color:var(--green-700);font-weight:700"> Lea nuestra guía completa de transición.</NuxtLink>
         </p>
       </div>
     </section>

@@ -11,13 +11,13 @@ Pocas cosas frustran más que un gato que de pronto orina fuera del arenero. Ant
 
 La causa número uno, por lejos. El olfato del gato es unas catorce veces más sensible que el nuestro: un arenero que a usted le parece aceptable, para él puede ser intolerable. Muchos gatos se niegan a pisar un arenero con deposiciones de más de un día.
 
-**Solución:** retire los sólidos a diario y mantenga el lecho seco. Si el olor es una batalla constante, el problema suele ser el material: le explicamos cómo resolverlo de raíz en [cómo eliminar el olor del arenero](/blog/como-eliminar-el-olor-del-arenero-del-gato).
+**Solución:** retire los sólidos a diario y mantenga el lecho seco. Si el olor es una batalla constante, el problema suele ser el material: le explicamos cómo resolverlo de raíz en [cómo eliminar el olor del arenero](/blog/como-eliminar-el-olor-del-arenero-del-gato/).
 
 ## 2. La arena le resulta desagradable
 
 Perfumes intensos, polvo que se levanta al escarbar o textura incómoda hacen que el gato asocie el arenero con una experiencia negativa. Las arenas perfumadas, pensadas para agradar a los humanos, son una causa clásica de rechazo felino.
 
-**Solución:** use un material sin fragancias añadidas y sin polvo, como los pellets de aserrín de madera 100% natural. Si viene de otra arena, haga el cambio de forma gradual con nuestra [guía de transición](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets); un cambio brusco también puede provocar rechazo.
+**Solución:** use un material sin fragancias añadidas y sin polvo, como los pellets de aserrín de madera 100% natural. Si viene de otra arena, haga el cambio de forma gradual con nuestra [guía de transición](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/); un cambio brusco también puede provocar rechazo.
 
 ## 3. Mala ubicación del arenero
 

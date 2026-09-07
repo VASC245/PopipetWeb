@@ -13,7 +13,7 @@ Las arenas aglomerantes de bentonita están diseñadas para hacer exactamente un
 
 Por esa razón, la recomendación veterinaria habitual es evitar arenas aglomerantes finas durante los primeros meses de vida, hasta que el gatito deje atrás la etapa de "probar todo con la boca". A eso se suman otros dos inconvenientes de las arenas minerales finas para cachorros:
 
-- **El polvo:** las vías respiratorias de un gatito son diminutas, y el polvo de sílice o arcilla les afecta proporcionalmente más que a un adulto ([por qué el polvo importa tanto](/blog/arena-para-gatos-sin-polvo)).
+- **El polvo:** las vías respiratorias de un gatito son diminutas, y el polvo de sílice o arcilla les afecta proporcionalmente más que a un adulto ([por qué el polvo importa tanto](/blog/arena-para-gatos-sin-polvo/)).
 - **Los perfumes:** las fragancias intensas pueden provocar rechazo justo en la etapa en que el gatito está aprendiendo a usar el arenero.
 
 ## Qué buscar en una arena para gatitos
@@ -36,10 +36,10 @@ Los gatitos aprenden por instinto y por imitación de la madre. Con pellets el p
 3. Lleve al gatito al arenero después de comer y al despertar, que es cuando naturalmente necesita ir.
 4. Si hace fuera, no lo regañe: lleve el desecho al arenero para que el olor le indique el lugar correcto.
 
-> Consejo: durante las primeras semanas, mantenga el arenero especialmente limpio. Un gatito que asocia el arenero con una experiencia agradable será un adulto sin problemas de rechazo (aquí puede ver [las causas más comunes de rechazo](/blog/por-que-mi-gato-no-usa-el-arenero) y cómo prevenirlas).
+> Consejo: durante las primeras semanas, mantenga el arenero especialmente limpio. Un gatito que asocia el arenero con una experiencia agradable será un adulto sin problemas de rechazo (aquí puede ver [las causas más comunes de rechazo](/blog/por-que-mi-gato-no-usa-el-arenero/) y cómo prevenirlas).
 
 ## ¿Y cuando crezca?
 
-Esa es la mejor parte: con los pellets no hay que cambiar de arena "de grande". El mismo material que protege al cachorro es el que mejor rinde para un gato adulto: [dura hasta 3 veces más que la arena tradicional](/blog/cuanto-dura-la-arena-de-pellets-para-gatos), controla el olor con la resina natural de la madera y es 100% biodegradable.
+Esa es la mejor parte: con los pellets no hay que cambiar de arena "de grande". El mismo material que protege al cachorro es el que mejor rinde para un gato adulto: [dura hasta 3 veces más que la arena tradicional](/blog/cuanto-dura-la-arena-de-pellets-para-gatos/), controla el olor con la resina natural de la madera y es 100% biodegradable.
 
 [Popipet Ecoarena](/#producto) es arena de pellets de aserrín de madera 100% natural, sin químicos, sin perfumes y sin sílice — producto ecuatoriano con envío a todo el país. Si su gatito acaba de llegar a casa, es el mejor punto de partida para toda su vida con el arenero.

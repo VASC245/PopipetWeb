@@ -37,7 +37,7 @@ La arena de pellets de madera cumple las cuatro condiciones por su propia natura
 
 ## Cómo hacer el cambio sin estrés
 
-Un gato con sensibilidad respiratoria agradecerá el cambio, pero sigue siendo un gato: el cambio debe ser gradual. Siga nuestra [guía de transición paso a paso](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets) para completar el proceso en una o dos semanas sin rechazos.
+Un gato con sensibilidad respiratoria agradecerá el cambio, pero sigue siendo un gato: el cambio debe ser gradual. Siga nuestra [guía de transición paso a paso](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/) para completar el proceso en una o dos semanas sin rechazos.
 
 ## En resumen
 

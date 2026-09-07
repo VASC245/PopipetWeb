@@ -14,7 +14,7 @@ Comparar el precio de un saco de pellets contra un saco de bentonita es como com
 - La **bentonita** forma grumos: con cada limpieza usted desecha el grumo y una porción de arena limpia adherida. El saco se va rápido.
 - Los **pellets de madera** solo se deshacen donde reciben orina. El resto permanece intacto y utilizable. Solo se retira lo efectivamente usado.
 
-Por eso un saco de 10 kg de pellets rinde, en la práctica, lo que unos **30 kg de arena tradicional**. Le mostramos el detalle en [¿cuánto dura la arena de pellets?](/blog/cuanto-dura-la-arena-de-pellets-para-gatos).
+Por eso un saco de 10 kg de pellets rinde, en la práctica, lo que unos **30 kg de arena tradicional**. Le mostramos el detalle en [¿cuánto dura la arena de pellets?](/blog/cuanto-dura-la-arena-de-pellets-para-gatos/).
 
 ## El cálculo del costo mensual
 
@@ -33,16 +33,16 @@ La conclusión del ejercicio: medido por semana de uso, el pellet compite de igu
 
 A diferencia de una arena barata, con los pellets el menor costo no implica sacrificar calidad, sino lo contrario:
 
-- **Sin polvo:** protege las vías respiratorias de su gato y su familia ([por qué importa](/blog/arena-para-gatos-sin-polvo)).
-- **Control de olores real:** la resina natural de la madera neutraliza el amoníaco, sin perfumes ([cómo funciona](/blog/como-eliminar-el-olor-del-arenero-del-gato)).
+- **Sin polvo:** protege las vías respiratorias de su gato y su familia ([por qué importa](/blog/arena-para-gatos-sin-polvo/)).
+- **Control de olores real:** la resina natural de la madera neutraliza el amoníaco, sin perfumes ([cómo funciona](/blog/como-eliminar-el-olor-del-arenero-del-gato/)).
 - **100% biodegradable:** el residuo va con los orgánicos o al compost, no al relleno sanitario en bolsas de arcilla que nunca se degrada.
 - **Producto ecuatoriano:** aserrín de madera 100% natural, sin químicos añadidos, y compra que apoya la producción local.
 
 ## Dónde comprar arena biodegradable en Ecuador
 
-Puede pedir Popipet Ecoarena directamente en [popipet.com](/comprar-arena-de-pellets-para-gatos): arme su pedido en el carrito y coordine el pago y la entrega de inmediato. **Enviamos a todo Ecuador** (el envío tiene un costo adicional según la ciudad). También puede pagar en línea de forma segura desde la misma página. Si está en las ciudades principales, tenemos entrega a domicilio en [Quito](/arena-para-gatos-quito), [Guayaquil](/arena-para-gatos-guayaquil) y [Cuenca](/arena-para-gatos-cuenca).
+Puede pedir Popipet Ecoarena directamente en [popipet.com](/comprar-arena-de-pellets-para-gatos/): arme su pedido en el carrito y coordine el pago y la entrega de inmediato. **Enviamos a todo Ecuador** (el envío tiene un costo adicional según la ciudad). También puede pagar en línea de forma segura desde la misma página. Si está en las ciudades principales, tenemos entrega a domicilio en [Quito](/arena-para-gatos-quito/), [Guayaquil](/arena-para-gatos-guayaquil/) y [Cuenca](/arena-para-gatos-cuenca/).
 
-> Consejo: si es su primera compra, aproveche para hacer la transición correctamente desde el primer saco. El paso a paso está en nuestra [guía de transición de arena tradicional a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets).
+> Consejo: si es su primera compra, aproveche para hacer la transición correctamente desde el primer saco. El paso a paso está en nuestra [guía de transición de arena tradicional a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/).
 
 ## En resumen
 

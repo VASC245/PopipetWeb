@@ -30,7 +30,7 @@ Con el material correcto, basta una rutina simple:
 1. **Retire las deposiciones sólidas a diario.** Es un minuto y evita el 80% del problema.
 2. **Remueva los pellets cada 1-2 días** para que el aserrín húmedo se separe y caiga al fondo (o a la bandeja inferior, si usa arenero de malla).
 3. **Retire el aserrín usado** cada pocos días. Al ser biodegradable, puede ir con los residuos orgánicos o al compost.
-4. **Renueve el lecho completo** cuando la mayoría de pellets se hayan deshecho. Con un gato, un saco de 10 kg dura varias semanas: aquí puede ver [cuánto dura la arena de pellets en la práctica](/blog/cuanto-dura-la-arena-de-pellets-para-gatos).
+4. **Renueve el lecho completo** cuando la mayoría de pellets se hayan deshecho. Con un gato, un saco de 10 kg dura varias semanas: aquí puede ver [cuánto dura la arena de pellets en la práctica](/blog/cuanto-dura-la-arena-de-pellets-para-gatos/).
 5. **Lave la caja con agua y jabón neutro** en cada cambio completo. Evite cloro y desinfectantes de olor fuerte: al gato le molestan y puede rechazar el arenero.
 
 > Consejo: la ubicación también cuenta. Un arenero en un rincón sin ventilación concentra cualquier olor. Búsquele un lugar ventilado, lejos de la comida y el agua del gato.
@@ -39,7 +39,7 @@ Con el material correcto, basta una rutina simple:
 
 - **Poner demasiada arena tradicional** pensando que absorberá más: solo entierra la humedad.
 - **Esperar a que huela para limpiar:** si ya huele, el amoníaco lleva días formándose.
-- **Cambiar de arena bruscamente:** el gato puede empezar a orinar fuera de la caja, que es un problema de olor mucho peor. Haga el cambio de forma gradual siguiendo nuestra [guía de transición a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets).
+- **Cambiar de arena bruscamente:** el gato puede empezar a orinar fuera de la caja, que es un problema de olor mucho peor. Haga el cambio de forma gradual siguiendo nuestra [guía de transición a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/).
 
 ## En resumen
 

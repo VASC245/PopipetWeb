@@ -36,4 +36,4 @@ Es la pregunta clave con roedores y conejos, que roen todo. Los pellets de Popip
 
 ## Un solo saco para toda la casa
 
-Si en su hogar conviven un gato y un conejo —o cualquier combinación de mascotas pequeñas—, esta es la ventaja práctica: **el mismo saco sirve para todos**. Un saco de 10 kg de [Popipet Ecoarena](/#producto) cuesta $13 + IVA, rinde semanas ([aquí los números con gatos](/blog/cuanto-dura-la-arena-de-pellets-para-gatos)) y se envía a todo Ecuador. Producto ecuatoriano, natural y biodegradable, para todos los areneros, esquineros y jaulas de la casa.
+Si en su hogar conviven un gato y un conejo —o cualquier combinación de mascotas pequeñas—, esta es la ventaja práctica: **el mismo saco sirve para todos**. Un saco de 10 kg de [Popipet Ecoarena](/#producto) cuesta $13 + IVA, rinde semanas ([aquí los números con gatos](/blog/cuanto-dura-la-arena-de-pellets-para-gatos/)) y se envía a todo Ecuador. Producto ecuatoriano, natural y biodegradable, para todos los areneros, esquineros y jaulas de la casa.

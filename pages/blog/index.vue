@@ -16,7 +16,7 @@
           <span class="post-meta">{{ formatDate(post.date) }}</span>
           <h2>{{ post.title }}</h2>
           <p>{{ post.description }}</p>
-          <NuxtLink class="post-link" :to="post._path">Leer artículo →</NuxtLink>
+          <NuxtLink class="post-link" :to="`${post._path}/`">Leer artículo →</NuxtLink>
         </article>
       </div>
     </section>

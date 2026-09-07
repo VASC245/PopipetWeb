@@ -10,7 +10,7 @@
         <NuxtLink to="/#beneficios">Beneficios</NuxtLink>
         <NuxtLink to="/#como-usar">Modo de uso</NuxtLink>
         <NuxtLink to="/#ficha">Ficha técnica</NuxtLink>
-        <NuxtLink to="/blog">Blog</NuxtLink>
+        <NuxtLink to="/blog/">Blog</NuxtLink>
         <NuxtLink to="/#faq">Preguntas</NuxtLink>
         <NuxtLink to="/#contacto">Contacto</NuxtLink>
       </nav>

@@ -40,6 +40,6 @@ Sabrá que la transición funcionó cuando su gato entre al arenero sin dudar, e
 
 ## ¿Por qué vale la pena el cambio?
 
-Además del bienestar de su gato, el cambio tiene impacto directo en su bolsillo y en el planeta: los pellets [rinden hasta 3 veces más](/blog/cuanto-dura-la-arena-de-pellets-para-gatos) que la arena tradicional y son 100% biodegradables y compostables.
+Además del bienestar de su gato, el cambio tiene impacto directo en su bolsillo y en el planeta: los pellets [rinden hasta 3 veces más](/blog/cuanto-dura-la-arena-de-pellets-para-gatos/) que la arena tradicional y son 100% biodegradables y compostables.
 
 [Popipet Ecoarena](/#producto) está fabricada en Ecuador con aserrín de madera 100% natural, sin químicos ni aditivos — la opción ideal para empezar la transición hoy.

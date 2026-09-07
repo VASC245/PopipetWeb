@@ -26,7 +26,7 @@ Señales de alerta que conviene observar:
 - Al verter arena nueva se levanta una nube evidente.
 - Alguien en casa empeoró de alergias desde que llegó el gato (y quizá el problema no es el gato, sino su arena).
 
-Si su gato ya presenta síntomas respiratorios, le recomendamos leer nuestra guía sobre la [mejor arena para gatos con alergias o problemas respiratorios](/blog/mejor-arena-para-gatos-con-alergias-o-problemas-respiratorios).
+Si su gato ya presenta síntomas respiratorios, le recomendamos leer nuestra guía sobre la [mejor arena para gatos con alergias o problemas respiratorios](/blog/mejor-arena-para-gatos-con-alergias-o-problemas-respiratorios/).
 
 ## La alternativa: pellets de madera, polvo prácticamente nulo
 
@@ -37,13 +37,13 @@ El aserrín solo aparece cuando un pellet absorbe orina y se deshace, y para ent
 Ventajas adicionales del formato pellet:
 
 - **No se pega a las patas**, así que no hay huellas de arena por la casa.
-- **No usa perfumes** para tapar olores: la resina natural de la madera neutraliza el amoníaco. Si el olor del arenero es su otra batalla, aquí le contamos [cómo eliminarlo de raíz](/blog/como-eliminar-el-olor-del-arenero-del-gato).
+- **No usa perfumes** para tapar olores: la resina natural de la madera neutraliza el amoníaco. Si el olor del arenero es su otra batalla, aquí le contamos [cómo eliminarlo de raíz](/blog/como-eliminar-el-olor-del-arenero-del-gato/).
 - **Es biodegradable**: el material usado puede ir con los residuos orgánicos o al compost.
 
 ## Qué esperar al hacer el cambio
 
 La diferencia se nota desde el primer día: no hay nube al llenar el arenero, no hay polvillo en los muebles y el área de la caja permanece limpia. Muchos tutores reportan que los estornudos de su gato disminuyen en la primera o segunda semana.
 
-Para que su gato acepte el nuevo material sin estrés, haga un cambio progresivo mezclando ambos lechos durante unos días: el paso a paso está en nuestra [guía de transición a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets).
+Para que su gato acepte el nuevo material sin estrés, haga un cambio progresivo mezclando ambos lechos durante unos días: el paso a paso está en nuestra [guía de transición a pellets](/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/).
 
 [Popipet Ecoarena](/#producto) es arena de pellets de aserrín de madera 100% natural, un producto ecuatoriano sin químicos, sin perfumes y sin sílice, con envío a todo el país. Para su gato —y para los pulmones de toda la familia— es el cambio más saludable que puede hacer en el arenero.

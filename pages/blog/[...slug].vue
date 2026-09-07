@@ -3,7 +3,7 @@
     <div class="article-head">
       <div class="wrap">
         <p class="breadcrumb">
-          <NuxtLink to="/">Inicio</NuxtLink> / <NuxtLink to="/blog">Blog</NuxtLink>
+          <NuxtLink to="/">Inicio</NuxtLink> / <NuxtLink to="/blog/">Blog</NuxtLink>
         </p>
         <h1>{{ doc.title }}</h1>
         <p class="desc">{{ doc.description }}</p>
@@ -23,7 +23,7 @@
       </div>
       <div v-if="related && related.length" class="related">
         <h4>Artículos relacionados</h4>
-        <NuxtLink v-for="r in related" :key="r._path" :to="r._path">{{ r.title }}</NuxtLink>
+        <NuxtLink v-for="r in related" :key="r._path" :to="`${r._path}/`">{{ r.title }}</NuxtLink>
       </div>
     </div>
   </main>

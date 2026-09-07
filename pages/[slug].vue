@@ -79,9 +79,9 @@
         <div class="reveal" style="margin-bottom:2.5rem">
           <h2 class="title" style="font-size:clamp(1.4rem,2.4vw,1.8rem);margin-bottom:.8rem">Guías útiles antes de comprar</h2>
           <ul class="about-list">
-            <li><svg class="icon"><use href="#i-check"/></svg> <NuxtLink to="/blog/mejor-arena-para-gatos-en-ecuador">¿Cuál es la mejor arena para gatos en Ecuador?</NuxtLink></li>
-            <li><svg class="icon"><use href="#i-check"/></svg> <NuxtLink to="/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets">Cómo hacer la transición de arena tradicional a pellets</NuxtLink></li>
-            <li><svg class="icon"><use href="#i-check"/></svg> <NuxtLink to="/blog/cuanto-dura-la-arena-de-pellets-para-gatos">¿Cuánto dura la arena de pellets para gatos?</NuxtLink></li>
+            <li><svg class="icon"><use href="#i-check"/></svg> <NuxtLink to="/blog/mejor-arena-para-gatos-en-ecuador/">¿Cuál es la mejor arena para gatos en Ecuador?</NuxtLink></li>
+            <li><svg class="icon"><use href="#i-check"/></svg> <NuxtLink to="/blog/como-hacer-la-transicion-de-arena-tradicional-a-pellets/">Cómo hacer la transición de arena tradicional a pellets</NuxtLink></li>
+            <li><svg class="icon"><use href="#i-check"/></svg> <NuxtLink to="/blog/cuanto-dura-la-arena-de-pellets-para-gatos/">¿Cuánto dura la arena de pellets para gatos?</NuxtLink></li>
           </ul>
         </div>
       </div>
