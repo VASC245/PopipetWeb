@@ -53,7 +53,8 @@ export default defineNuxtConfig({
         '/arena-para-gatos-quito',
         '/arena-para-gatos-guayaquil',
         '/arena-para-gatos-cuenca',
-        '/comprar-arena-de-pellets-para-gatos'
+        '/comprar-arena-de-pellets-para-gatos',
+        '/arena-sanitaria-para-gatos'
       ]
     }
   }

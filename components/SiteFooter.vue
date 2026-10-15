@@ -22,6 +22,7 @@
         <NuxtLink to="/arena-para-gatos-guayaquil/">Arena para gatos en Guayaquil</NuxtLink>
         <NuxtLink to="/arena-para-gatos-cuenca/">Arena para gatos en Cuenca</NuxtLink>
         <NuxtLink to="/comprar-arena-de-pellets-para-gatos/">Comprar arena de pellets</NuxtLink>
+        <NuxtLink to="/arena-sanitaria-para-gatos/">Arena sanitaria para gatos</NuxtLink>
       </div>
       <div>
         <h4>Empresa</h4>

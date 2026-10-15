@@ -9,7 +9,7 @@ Si busca **la mejor arena para gatos en Ecuador**, probablemente ya notó que la
 
 ## Los criterios que de verdad importan
 
-Antes de comparar marcas o precios, conviene tener claro qué evaluar en una arena sanitaria:
+Antes de comparar marcas o precios, conviene tener claro qué evaluar en una [arena sanitaria](/arena-sanitaria-para-gatos/):
 
 - **Polvo:** el polvo fino de algunas arenas minerales es la principal causa de estornudos e irritaciones, tanto en gatos como en personas.
 - **Control de olores:** la diferencia entre un hogar fresco y uno donde "se nota que hay gato".

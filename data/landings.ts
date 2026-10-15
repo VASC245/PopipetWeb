@@ -226,6 +226,62 @@ export const LANDINGS: Landing[] = [
     ],
     waText: 'Hola, quiero comprar arena de pellets Popipet Ecoarena.',
     date: '2026-08-28'
+  },
+  {
+    slug: 'arena-sanitaria-para-gatos',
+    area: 'Ecuador',
+    metaTitle: 'Arena Sanitaria para Gatos en Ecuador | Popipet Ecoarena',
+    metaDescription:
+      'Popipet Ecoarena: arena sanitaria para gatos de pellets de madera 100% natural. Sin polvo, elimina olores y rinde como 30 kg de arena común. Saco de 10 kg con envío a todo Ecuador.',
+    keywords:
+      'arena sanitaria para gatos, arena sanitaria popipet, popipet arena sanitaria, arena sanitaria ecologica, arena sanitaria para gatos ecuador, arena sanitaria sin polvo, arena sanitaria biodegradable, mejor arena sanitaria para gatos',
+    eyebrow: 'Arena sanitaria ecológica · Hecha en Ecuador',
+    h1: 'Arena sanitaria para gatos Popipet Ecoarena',
+    lead: 'Popipet Ecoarena es la arena sanitaria para gatos hecha con pellets de aserrín de madera 100% natural. No levanta polvo, neutraliza el olor del arenero sin perfumes y un saco de 10 kg rinde aproximadamente lo que 30 kg de arena sanitaria tradicional. Envíos a todo el Ecuador.',
+    bullets: [
+      'Arena sanitaria 100% natural: sin químicos, sin perfumes y sin polvo',
+      'Saco de 10 kg que rinde como 30 kg de arena sanitaria común',
+      'Biodegradable: el residuo va con los orgánicos o al compost',
+      'Pago en línea con tarjeta o pedido por WhatsApp, con envío a todo el país'
+    ],
+    sections: [
+      {
+        h2: 'Qué es una arena sanitaria y qué tipos hay en Ecuador',
+        text: 'La arena sanitaria es el material que va en el arenero para absorber la orina, controlar el olor y facilitar la limpieza. En las perchas del Ecuador se encuentran principalmente cuatro tipos: la arena de bentonita o aglomerante (arcilla que forma grumos), los cristales de sílice, la arena de tofu y los pellets de madera. Las dos primeras son de origen mineral y no se degradan; el tofu es vegetal pero importado. Popipet pertenece a la cuarta categoría: una arena sanitaria vegetal, producida en Ecuador con aserrín de madera natural.'
+      },
+      {
+        h2: 'Por qué elegir Popipet como arena sanitaria',
+        text: 'El pellet de Popipet absorbe la orina y, al hidratarse, se deshace en aserrín: la resina natural de la madera neutraliza el amoníaco en lugar de taparlo con fragancias. Como no se forman grumos de arena limpia pegada, solo se retira la parte usada, y por eso un saco de 10 kg dura mucho más que uno de arena sanitaria mineral. Además, no genera el polvo fino que suele causar estornudos en gatos y personas, ni se pega en las patas, lo que reduce la arena regada por la casa.'
+      },
+      {
+        h2: 'Cómo usar la arena sanitaria Popipet',
+        text: 'Coloque una capa de 3 a 4 cm de pellets en el arenero. Cada día retire las heces y, cuando note el aserrín acumulado en el fondo, ciérnalo o retírelo y complete con pellets nuevos. Si su gato viene de otra arena sanitaria, mezcle al inicio un poco de su arena anterior con Popipet y aumente la proporción de pellets durante una o dos semanas. El residuo puede desecharse con los orgánicos o integrarse al compost del jardín.'
+      }
+    ],
+    faqs: [
+      {
+        q: '¿Popipet es una arena sanitaria para gatos?',
+        a: 'Sí. Popipet Ecoarena es una arena sanitaria para gatos hecha con pellets de aserrín de madera 100% natural. Cumple la misma función que la arena sanitaria tradicional: absorbe la orina, controla el olor y se limpia fácilmente, pero sin polvo y con un residuo biodegradable.'
+      },
+      {
+        q: '¿En qué se diferencia de la arena sanitaria aglomerante?',
+        a: 'La arena aglomerante es arcilla mineral que forma grumos y se desecha junto con arena limpia pegada. Los pellets de Popipet no forman grumos: absorben la orina y se convierten en aserrín, que es lo único que se retira. Por eso rinde aproximadamente el triple y no levanta polvo.'
+      },
+      {
+        q: '¿Cuánto cuesta la arena sanitaria Popipet?',
+        a: 'El saco de 10 kg cuesta $13 + IVA. Por su rendimiento, equivale aproximadamente a 30 kg de arena sanitaria tradicional, por lo que el costo mensual real es menor.'
+      },
+      {
+        q: '¿Sirve como arena sanitaria para conejos, hámsters y otras mascotas?',
+        a: 'Sí. Al ser madera natural sin químicos ni perfumes, también se usa como cama o sustrato sanitario para conejos, hámsters, cobayas y hurones.'
+      },
+      {
+        q: '¿Hacen envíos a todo el Ecuador?',
+        a: 'Sí. Enviamos a todo el país; el costo de envío depende de la ciudad de destino y se confirma al procesar el pedido. Puede pagar en línea con tarjeta o pedir por WhatsApp.'
+      }
+    ],
+    waText: 'Hola, quiero pedir la arena sanitaria Popipet Ecoarena.',
+    date: '2026-10-14'
   }
 ]
 
